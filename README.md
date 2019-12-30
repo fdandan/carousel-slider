@@ -9,7 +9,7 @@
 
 import { slider} from 'carousel-slider'
 
-<slider :images="images" :autoPlay="true" />
+<slider :images="images"/>
 ```
 ## 支持的API
 
@@ -18,3 +18,4 @@ import { slider} from 'carousel-slider'
 | autoPlay      | 是否自动轮播             | true |
 | showIndex | 是否显示轮播的那个点     | true |
 | duration      | 两次滚动之间间隔时间     | 3000 |
+| images      | 轮播图素材     | [] |
