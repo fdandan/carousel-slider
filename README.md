@@ -7,7 +7,7 @@
 
 ``` bash
 
-import { slider} from 'carousel-slider'
+import { slider } from 'carousel-slider'
 
 <slider :images="images"/>
 ```
